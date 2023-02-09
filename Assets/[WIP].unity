@@ -1138,7 +1138,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 8848131633249631744, guid: eb91affb984e740dbb2082626ba96efb, type: 3}
+  m_ModelPrefab: {fileID: 2267404793836737100, guid: 8ed7c4661c5c246c3b215268ec9f5cc5, type: 3}
   m_ModelParent: {fileID: 1381457713}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -2989,7 +2989,7 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 7111071080452410799, guid: a2e8ee2005c074447b929af42b7f5068, type: 3}
+  m_ModelPrefab: {fileID: 6155391641003262500, guid: cd26f816dc3274e05bdcd4f2e79fe1ec, type: 3}
   m_ModelParent: {fileID: 237690706}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -6333,8 +6333,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0, g: 1, b: 0.7342434, a: 1}
-      key1: {r: 0, g: 1, b: 0.7342434, a: 1}
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -10447,6 +10447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mat_Rect_Green
       objectReference: {fileID: 0}
+    - target: {fileID: 6954268796586615722, guid: 65e1b17be55fde04f921004e190ce003, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7766833644459571472, guid: 65e1b17be55fde04f921004e190ce003, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -11494,6 +11498,10 @@ PrefabInstance:
     - target: {fileID: 6549980035440210037, guid: 5c9438e12d91dfe4eb8c39dead753db2, type: 3}
       propertyPath: m_Name
       value: Speaker_RecordPlayer_Brown
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549980035440210037, guid: 5c9438e12d91dfe4eb8c39dead753db2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
