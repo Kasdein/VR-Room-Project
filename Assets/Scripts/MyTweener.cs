@@ -9,7 +9,6 @@ public class MyTweener : MonoBehaviour
     public enum PosRotSca {Position, Rotation, Scale}
     public PosRotSca whichTransform;
     bool isTweening;
-    bool isPaused;
     public float tweenDuration;
     public Vector3 startFrom;
     public Vector3 endAt;
@@ -52,8 +51,6 @@ public class MyTweener : MonoBehaviour
                     break;
                 case PosRotSca.Scale:
                     transform.localScale = currentAmount;
-                    break;
-                default:
                     break;
             }   
         }   
